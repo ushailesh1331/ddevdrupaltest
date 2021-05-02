@@ -1,0 +1,14 @@
+uuid: e1b1b394-f4e8-4fd5-9966-25feb79fae50
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.ms2ddevtestdrupal_ddev_site
+  module:
+    - domain_access
+id: domain_access_add_action.ms2ddevtestdrupal_ddev_site
+label: 'Add selected content to the Drupal 9 Site domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: ms2ddevtestdrupal_ddev_site

@@ -1,0 +1,14 @@
+uuid: df929ee5-a894-4155-940e-f762e4276003
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.ms2ddevtestdrupal_ddev_site
+  module:
+    - domain_access
+id: domain_access_add_editor_action.ms2ddevtestdrupal_ddev_site
+label: 'Add editors to the Drupal 9 Site domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: ms2ddevtestdrupal_ddev_site

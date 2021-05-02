@@ -1,0 +1,61 @@
+/* Block Regions
+--------------------------------------*/
+.block-title {
+  position: relative;
+}
+
+/* breadcrumb */
+#breadcrumb {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background: #e4e4dd;
+  z-index: 3;
+  -webkit-box-shadow: 0 1px 1px #b9ad8c;
+  -moz-box-shadow: 0 1px 1px #b9ad8c;
+  box-shadow: 0 1px 1px #b9ad8c;
+}
+ol.breadcrumb-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ol.breadcrumb-items li {
+  display: inline;
+  padding: 0;
+}
+.breadcrumb-item-seperator {
+  margin: 0 10px;
+}
+
+/* Highlight region */
+#highlighted {
+  position: relative;
+  background: #f4f4ef;
+  z-index: 2;
+}
+#highlighted .block {
+  margin: 0 0 6px 0;
+  padding: 6px 0;
+}
+
+/* content top and content bottom block region */
+#content-top {
+  position: relative;
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0;
+  background: #f4f4ef;
+}
+#content-bottom {
+  position: relative;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 1em 0;
+  background: #f4f4ef;
+}
+#content-top .block,
+#content-bottom .block {
+  margin: 0 0 1em 0;
+}

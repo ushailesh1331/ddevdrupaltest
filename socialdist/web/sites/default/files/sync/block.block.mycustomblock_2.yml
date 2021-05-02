@@ -1,0 +1,25 @@
+uuid: 83ba9399-481a-4781-83ab-b8c225087feb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:750f041a-f467-4951-bca3-2b1d54fe623c'
+  module:
+    - block_content
+  theme:
+    - tara
+id: mycustomblock_2
+theme: tara
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:750f041a-f467-4951-bca3-2b1d54fe623c'
+settings:
+  id: 'block_content:750f041a-f467-4951-bca3-2b1d54fe623c'
+  label: 'My Custom Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

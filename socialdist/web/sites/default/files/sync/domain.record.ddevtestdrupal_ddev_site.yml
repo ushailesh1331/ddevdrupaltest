@@ -1,0 +1,11 @@
+uuid: 19cbf698-ce91-4699-a428-f1ac98c34aad
+langcode: en
+status: true
+dependencies: {  }
+id: ddevtestdrupal_ddev_site
+domain_id: 4838647
+hostname: ddevtestdrupal.ddev.site
+name: 'Microsite Factory'
+scheme: https
+weight: 1
+is_default: true

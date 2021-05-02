@@ -1,0 +1,8 @@
+uuid: 678b20d7-7705-4154-ba74-bb0aed1779b5
+langcode: en
+status: true
+dependencies: {  }
+id: my_block_type
+label: 'My Block Type'
+revision: 0
+description: 'My custom block type'

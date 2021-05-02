@@ -1,0 +1,20 @@
+uuid: 1bff7cb3-9f8e-4ae0-a859-63a30775fb56
+langcode: en
+status: true
+dependencies:
+  module:
+    - rsvplist
+  theme:
+    - tara
+id: rsvpblock
+theme: tara
+region: sidebar_first
+weight: 0
+provider: null
+plugin: rsvpblock
+settings:
+  id: rsvpblock
+  label: 'RSVP block'
+  provider: rsvplist
+  label_display: visible
+visibility: {  }
