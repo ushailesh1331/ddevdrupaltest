@@ -1,12 +1,9 @@
-uuid: 9dbe9386-3224-447a-b0aa-b52f478e6893
+uuid: 0262bb19-dd80-4deb-abbe-60df1cad47ba
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_domain_access
-    - field.field.node.page.field_domain_all_affiliates
-    - field.field.node.page.field_domain_source
     - node.type.page
   module:
     - text
@@ -28,7 +25,4 @@ content:
   links:
     weight: 101
     region: content
-hidden:
-  field_domain_access: true
-  field_domain_all_affiliates: true
-  field_domain_source: true
+hidden: {  }

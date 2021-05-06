@@ -1,4 +1,4 @@
-uuid: 726ec29b-59c6-468e-95a1-c7246ac97cf6
+uuid: 1647cd9d-c611-416c-8d0d-b07a5f0b5bd6
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,6 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_domain_access
-    - field.field.node.article.field_domain_all_affiliates
-    - field.field.node.article.field_domain_source
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.large
@@ -63,7 +60,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_domain_access: true
-  field_domain_all_affiliates: true
-  field_domain_source: true
+hidden: {  }

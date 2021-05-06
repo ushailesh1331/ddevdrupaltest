@@ -1,4 +1,4 @@
-uuid: e36d5f28-38e4-421c-a90a-4d00282b48b8
+uuid: 1b9225f9-eea4-4676-9027-dabfea958c2e
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - shailesh_u@yahoo.com
+  - noreply@noreply.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

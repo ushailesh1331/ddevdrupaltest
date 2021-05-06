@@ -28,7 +28,7 @@ class RSVPSettingsForm extends ConfigFormBase {
     public function buildForm(array $form, FormStateInterface $form_state, Request $request = NULL) {
         $types = node_type_get_names();
         $config = $this->config('rsvplist.settings');
-        $form['rsvllist_types'] = array(
+        $form['rsvplist_types'] = array(
             '#type' => 'checkboxes',
             '#title' => $this->t('The content types to enable RSVP collection for'),
             '#default_value' => $config->get('allowed_types'),

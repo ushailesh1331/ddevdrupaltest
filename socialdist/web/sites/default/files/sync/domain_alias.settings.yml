@@ -1,8 +1,0 @@
-environments:
-  - default
-  - local
-  - development
-  - staging
-  - testing
-_core:
-  default_config_hash: 4akI_xftgCYosiQG448rHCCJ7J-7vmZxWlBJWHpoI4Q
