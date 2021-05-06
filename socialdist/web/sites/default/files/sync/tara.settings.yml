@@ -10,7 +10,7 @@ github_url: ''
 telegram_url: ''
 vimeo_url: ''
 slider_show: 1
-slider_time: '5000'
+slider_time: 5000
 slider_dots: 'true'
 slider_code: ''
 front_sidebar: 0
@@ -24,13 +24,3 @@ css_extra: 0
 css_code: ''
 _core:
   default_config_hash: mLkSaJDZEv2S9kWh39agUO9tQnhgN5CmN1W2_zYT11o
-features:
-  node_user_picture: true
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-logo:
-  use_default: true
-  path: 'public://Screen Shot 2020-05-29 at 7.53.10 PM.png'
-favicon:
-  use_default: true

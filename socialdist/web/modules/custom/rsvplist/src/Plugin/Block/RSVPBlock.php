@@ -25,15 +25,18 @@ class RSVPBlock extends BlockBase {
   /*  return array('#markup' => $this->t('My RSVP List Block Two'));*/
     return \Drupal::formBuilder()->getForm('Drupal\rsvplist\Form\RSVPForm');
   }
-  /*
+ 
   public function blockAccess(AccountInterface $account) {
-    /** @var\Drupal\node\Entity\Node $node
+    /** @var\Drupal\node\Entity\Node $node   */
     $node = \Drupal::routeMatch()->getParameter('node');
     $nid = $node->nid->value;
+    $enabler = \Drupal::service('rsvplist.enabler');
     if(is_numeric($nid)) {
-      return AccessResult::allowedIfHasPermission($account, 'view rsvplist');
-    }
+      if ($enabler->isEnabled($node)) {
+        return AccessResult::allowedIfHasPermission($account, 'view rsvplist');
+      }
+    }  
     return AccessResult::forbidden();
   }
-  */
+
 }
